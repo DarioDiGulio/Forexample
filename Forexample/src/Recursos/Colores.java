@@ -11,6 +11,7 @@ public class Colores {
     private Color colorFondoBoton;
     private Color colorLetraTextoComun;
     private Color panel;
+    private Color fondoOscuro;
     
     public Colores(){
         setColorFondo();
@@ -20,6 +21,7 @@ public class Colores {
         setFondoBoton();
         setLetraTextoComun();
         setColorPanel();
+        setFondoOscuro();
     }
 
     private void setColorFondo() {
@@ -50,6 +52,9 @@ public class Colores {
         this.colorFondoBoton = new java.awt.Color(39, 136, 129);
     }
     
+    private void setFondoOscuro() {
+        this.colorFondoBoton = new java.awt.Color(67, 75, 142);
+    }
     public Color getPanel() {
         return panel;
     }
@@ -78,6 +83,8 @@ public class Colores {
         return colorFondoBoton;
     }
 
-    
+    public Color getFondoOscuro() {
+        return fondoOscuro;
+    }
 
 }

@@ -14,8 +14,7 @@ public class Conectar {
             System.out.println("Conección establecida con éxito.");
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println(e);
-        }
-        
+        }   
         return conectar;
     }
     
